@@ -1,0 +1,226 @@
+:root {
+    --bg-color: #333131;
+    --bg-color-2: #5a5a5a;
+    --nav-color: #1f1d1d;
+    --input-bg-color: #11bdac;
+    --hover-color: #333131;
+
+    --border-color: #5a5a5a;
+
+    --box-shadow-color: #161616;
+    --divider-color: #5a5a5a;
+
+    --nav-text-color: #c8c8c8;
+    --especial-text-color: #3dc48c;
+    --interesting-text-color: #11bdac;
+    --normal-text-color: #c8c8c8;
+    --link-text-color: #1ce8b8;
+    --hover-text-color: #5e5d5a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: var(--border-color);
+}
+
+html {
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+body {
+    background: var(--bg-color);
+    font-family: Verdana, Arial, sans-serif;
+    font-size: small;
+    font-style: 400;
+    letter-spacing: 0;
+    line-height: inherit;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+section {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+img {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: initial;
+    height: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    overflow-x: hidden;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.25em;
+    margin-bottom: 10px;
+    padding: 0 0 3px;
+}
+
+main {
+    display: block;
+    padding: 0;
+    position: relative;
+    min-height: 450px;
+    display: grid;
+    unicode-bidi: isolate;
+}
+
+article {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border: 2px solid var(--embed-color);
+    border-radius: 4px;
+    align-self: start;
+    background: var(--box-bg-color);
+    background: linear-gradient(180deg, var(--bg-color-2) 0%, var(--box-shadow-color) 100%);
+}
+
+form {
+    margin: 0;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+input {
+    padding: .4em .6em;
+    margin: 0;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--);
+    color: var(--especial-text-color);
+    font-size: 13px;
+    max-width: 100%;
+    line-height: 1em;
+}
+
+svg {
+    display: block;
+}
+
+.form {
+    max-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-section {
+    margin-top: .75rem;
+    margin-bottom: .5rem;
+    height: 85px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo-container {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.logo {
+    max-height: 42px;
+}
+
+.header-text {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    color: var(--normal-text-color);
+}
+
+.form-content {
+    display: flex;
+    row-gap: .75rem;
+    flex-direction: column;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: .25rem;
+    color: var(--especial-text-color);
+    font-weight: bold;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.form-input-text {
+    width: 100%;
+}
+
+.form-passwd {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-passwd-icon {
+    display: flex;
+    align-items: center;
+    padding: .4em .6em;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    color: var(--normal-text-color);
+    fill: currentColor;
+    font-size: 13px;
+    max-width: 100%;
+    line-height: 1em;
+}
+
+.icon {
+    height: 1em;
+    width: 1.28571429em;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+}
+
+.form-input-passwd {
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+    width: 100%;
+}
+
+.form-label span {
+    position: relative;
+    top: -2px;
+}
