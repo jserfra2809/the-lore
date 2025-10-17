@@ -1,4 +1,4 @@
-<h1 align='center'>![TheLoreIcon](icon.png)THE LORE</h1> 
+<h1 align='center'><img width="50" src="icon.png">THE LORE</h1>
 <h2 align='center'>"Donde las historias de tus juegos favoritos cobran realidad”</h2>
 
 <p align='center'>
